@@ -1,0 +1,9 @@
+{
+  "name": "varner-nx",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/varner-nx",
+  "projectType": "application",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project varner-nx --web",
+  "targets": {}
+}
