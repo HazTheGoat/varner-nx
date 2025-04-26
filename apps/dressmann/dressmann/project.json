@@ -1,0 +1,11 @@
+{
+    "name": "dressmann",
+    "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+    "sourceRoot": "apps/dressmann/dressmann",
+    "projectType": "application",
+    "tags": [
+        "scope:dressmann"
+    ],
+    "// targets": "to see all targets run: nx show project dressmann --web",
+    "targets": {}
+}

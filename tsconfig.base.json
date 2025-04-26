@@ -15,17 +15,17 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@varner-nx/bikbik-product-list-feature": [
-        "libs/dressmann/bikbik-product-list-feature/src/index.ts"
+      "@varner-nx/bikbok-product-list-feature": [
+        "libs/bikbok/bikbok-product-list-feature/src/index.ts"
       ],
-      "@varner-nx/bikbik-product-list-feature/server": [
-        "libs/dressmann/bikbik-product-list-feature/src/server.ts"
+      "@varner-nx/bikbok-product-list-feature/server": [
+        "libs/bikbok/bikbok-product-list-feature/src/server.ts"
       ],
-      "@varner-nx/bikbik-store-feature": [
-        "libs/dressmann/bikbik-store-feature/src/index.ts"
+      "@varner-nx/bikbok-store-feature": [
+        "libs/bikbok/bikbok-store-feature/src/index.ts"
       ],
-      "@varner-nx/bikbik-store-feature/server": [
-        "libs/dressmann/bikbik-store-feature/src/server.ts"
+      "@varner-nx/bikbok-store-feature/server": [
+        "libs/bikbok/bikbok-store-feature/src/server.ts"
       ],
       "@varner-nx/dressmann-product-list-feature": [
         "libs/dressmann/dressmann-product-list-feature/src/index.ts"

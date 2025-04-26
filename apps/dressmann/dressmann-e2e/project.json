@@ -1,0 +1,9 @@
+{
+  "name": "dressmann-e2e",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/dressmann/dressmann-e2e/src",
+  "tags": [],
+  "implicitDependencies": ["dressmann"],
+  "// targets": "to see all targets run: nx show project dressmann-e2e --web",
+  "targets": {}
+}

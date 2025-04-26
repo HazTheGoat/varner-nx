@@ -1,0 +1,11 @@
+{
+    "name": "bikbok",
+    "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+    "sourceRoot": "apps/bikbok/bikbok",
+    "projectType": "application",
+    "tags": [
+        "scope:bikbok"
+    ],
+    "// targets": "to see all targets run: nx show project bikbok --web",
+    "targets": {}
+}

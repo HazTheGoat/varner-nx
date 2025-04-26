@@ -1,0 +1,9 @@
+{
+  "name": "bikbok-e2e",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/bikbok/bikbok-e2e/src",
+  "tags": [],
+  "implicitDependencies": ["bikbok"],
+  "// targets": "to see all targets run: nx show project bikbok-e2e --web",
+  "targets": {}
+}
