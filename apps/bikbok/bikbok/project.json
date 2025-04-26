@@ -4,7 +4,8 @@
     "sourceRoot": "apps/bikbok/bikbok",
     "projectType": "application",
     "tags": [
-        "scope:bikbok"
+        "scope:bikbok",
+        "type:app"
     ],
     "// targets": "to see all targets run: nx show project bikbok --web",
     "targets": {}

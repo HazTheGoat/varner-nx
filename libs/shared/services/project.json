@@ -4,7 +4,8 @@
     "sourceRoot": "libs/shared/services/src",
     "projectType": "library",
     "tags": [
-        "scope:shared"
+        "scope:shared",
+        "type:feature"
     ],
     "// targets": "to see all targets run: nx show project services --web",
     "targets": {}

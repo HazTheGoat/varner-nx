@@ -4,7 +4,8 @@
     "sourceRoot": "libs/dressmann/dressmann-product-list-feature/src",
     "projectType": "library",
     "tags": [
-        "scope:dressmann"
+        "scope:dressmann",
+        "type:feature"
     ],
     "// targets": "to see all targets run: nx show project dressmann-product-list-feature --web",
     "targets": {}

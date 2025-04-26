@@ -24,6 +24,18 @@ module.exports = [
               sourceTag: 'scope:dressmann',
               onlyDependOnLibsWithTags: ['scope:dressmann', 'scope:shared'],
             },
+            {
+              sourceTag: 'type:app',
+              onlyDependOnLibsWithTags: ['type:feature', 'type:util'],
+            },
+            {
+              sourceTag: 'type:feature',
+              onlyDependOnLibsWithTags: ['type:feature', 'type:util'],
+            },
+            {
+              sourceTag: 'type:util',
+              onlyDependOnLibsWithTags: ['type:util'],
+            },
           ],
         },
       ],

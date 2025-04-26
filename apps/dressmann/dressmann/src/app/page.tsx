@@ -1,4 +1,9 @@
+import { DressmannProductListFeature } from '@varner-nx/dressmann-product-list-feature';
+import { DressmannStoreFeature } from '@varner-nx/dressmann-store-feature';
+import { BikbokProductListFeature } from '@varner-nx/bikbok-product-list-feature';
+import { Theme } from '@varner-nx/theme';
 import styles from './page.module.scss';
+import { BikbokStoreFeature } from '@varner-nx/bikbok-store-feature';
 
 export default function Index() {
   /*
@@ -16,6 +21,11 @@ export default function Index() {
               Welcome to Dressmann
             </h1>
           </div>
+          <DressmannProductListFeature /> {/* <---- "scope:dressmann" */}
+          <DressmannStoreFeature /> {/* <---- "scope:dressmann" */}
+          <Theme /> {/* <---- Tagged with "scope:shared" */}
+          <BikbokProductListFeature /> {/* <---- "scope:bikbok" */}
+          <BikbokStoreFeature /> {/* <---- "scope:bikbok" */}
         </div>
       </div>
     </div>
