@@ -1,3 +1,4 @@
+import { I18n } from '@varner-nx/i18n';
 import styles from './page.module.scss';
 
 export default function Index() {
@@ -16,7 +17,7 @@ export default function Index() {
               Welcome varner-nx 👋
             </h1>
           </div>
-
+          <I18n />
           <div id="hero" className="rounded">
             <div className="text-container">
               <h2>
