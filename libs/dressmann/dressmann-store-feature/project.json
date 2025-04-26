@@ -1,0 +1,11 @@
+{
+    "name": "dressmann-store-feature",
+    "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+    "sourceRoot": "libs/dressmann/dressmann-store-feature/src",
+    "projectType": "library",
+    "tags": [
+        "scope:dressmann"
+    ],
+    "// targets": "to see all targets run: nx show project dressmann-store-feature --web",
+    "targets": {}
+}

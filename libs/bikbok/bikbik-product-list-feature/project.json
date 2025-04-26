@@ -1,0 +1,11 @@
+{
+    "name": "bikbik-product-list-feature",
+    "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+    "sourceRoot": "libs/dressmann/bikbik-product-list-feature/src",
+    "projectType": "library",
+    "tags": [
+        "scope:bikbok"
+    ],
+    "// targets": "to see all targets run: nx show project bikbik-product-list-feature --web",
+    "targets": {}
+}

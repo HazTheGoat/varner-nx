@@ -15,8 +15,40 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@varner-nx/i18n": ["libs/i18n/src/index.ts"],
-      "@varner-nx/i18n/server": ["libs/i18n/src/server.ts"]
+      "@varner-nx/bikbik-product-list-feature": [
+        "libs/dressmann/bikbik-product-list-feature/src/index.ts"
+      ],
+      "@varner-nx/bikbik-product-list-feature/server": [
+        "libs/dressmann/bikbik-product-list-feature/src/server.ts"
+      ],
+      "@varner-nx/bikbik-store-feature": [
+        "libs/dressmann/bikbik-store-feature/src/index.ts"
+      ],
+      "@varner-nx/bikbik-store-feature/server": [
+        "libs/dressmann/bikbik-store-feature/src/server.ts"
+      ],
+      "@varner-nx/dressmann-product-list-feature": [
+        "libs/dressmann/dressmann-product-list-feature/src/index.ts"
+      ],
+      "@varner-nx/dressmann-product-list-feature/server": [
+        "libs/dressmann/dressmann-product-list-feature/src/server.ts"
+      ],
+      "@varner-nx/dressmann-store-feature": [
+        "libs/dressmann/dressmann-store-feature/src/index.ts"
+      ],
+      "@varner-nx/dressmann-store-feature/server": [
+        "libs/dressmann/dressmann-store-feature/src/server.ts"
+      ],
+      "@varner-nx/i18n": ["libs/shared/i18n/src/index.ts"],
+      "@varner-nx/i18n/server": ["libs/shared/i18n/src/server.ts"],
+      "@varner-nx/icons": ["libs/shared/icons/src/index.ts"],
+      "@varner-nx/icons/server": ["libs/shared/icons/src/server.ts"],
+      "@varner-nx/services": ["libs/shared/services/src/index.ts"],
+      "@varner-nx/services/server": ["libs/shared/services/src/server.ts"],
+      "@varner-nx/theme": ["libs/shared/theme/src/index.ts"],
+      "@varner-nx/theme/server": ["libs/shared/theme/src/server.ts"],
+      "@varner-nx/web-hooks": ["libs/shared/web-hooks/src/index.ts"],
+      "@varner-nx/web-hooks/server": ["libs/shared/web-hooks/src/server.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

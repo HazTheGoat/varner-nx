@@ -18,7 +18,11 @@ module.exports = [
           depConstraints: [
             {
               sourceTag: 'scope:bikbok',
-              onlyDependOnLibsWithTags: ['scope:bikbok'],
+              onlyDependOnLibsWithTags: ['scope:bikbok', 'scope:shared'],
+            },
+            {
+              sourceTag: 'scope:dressmann',
+              onlyDependOnLibsWithTags: ['scope:dressmann', 'scope:shared'],
             },
           ],
         },
